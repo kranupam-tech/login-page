@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <title>Sing page</title>
+    <link rel="stylesheet" href="style.css">
+    <h1> Example Form</h1>
+
+    <head>
+        <body align="center" bgcolor="lightblue">
+            <form>
+                <fieldset>
+                    <legend><h2>USER INFORMATION FORM</h2></legend>
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+                <label for="email">Email:</label>               
+                <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number"><br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>   
+                <label for="female">Female</label><br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend><h2>ADDRESS INFORMATION</h2></legend>   
+                <label for="Village">Village:</label>
+                <input type="text" id="Village" name="Village" required placeholder="Enter your village"><br><br>
+                <label for="District">District:</label>
+                <select id="District" name="District" required>
+                    <option value="">Select your district</option>
+                    <option value="Prayagraj">Prayagraj</option>
+                    <option value="Banda">Banda</option>
+                    <option value="Kanpur">Kanpur</option>
+                    <option value="Mirjapur ">Mirjapur</option>
+                </select><br><br>
+                <label for="State">State:</label>
+                <select id="State" name="State" required>
+                    <option value="">Select your state</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                </select><br><br>
+                <label for="Country">Country:</label>
+                <select id="Country" name="Country" required>
+                    <option value="">Select your country</option>
+                    <option value="India">India</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Nepal">Nepal</option>
+                </select><br><br>
+                <label for="Pincode">Pincode:</label>
+                <input type="text" id="Pincode" name="Pincode" required placeholder="Enter your pincode"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend><h2>EDUCATION INFORMATION</h2></legend>
+                    <label for="HighSchool">High School:</label>
+                    <input type="text" id="HighSchool" name="HighSchool" required placeholder="Enter your high school name"><br><br> 
+                    <input type="number" id="HighSchoolPercentage" name="HighSchoolPercentage" required placeholder="Enter your high school percentage"><br><br>    
+                    <label for="Intermediate">Intermediate:</label>
+                    <input type="text" id="Intermediate" name="Intermediate" required placeholder="Enter your intermediate school name"><br><br>   
+                    <input type="number" id="IntermediatePercentage" name="IntermediatePercentage" required placeholder="Enter your intermediate percentage"><br><br>
+                    <label for="College">College:</label>
+                 <input type="text" id="College" name="College" required placeholder="Enter your college name"><br><br> 
+                 <label for="Course">Course:</label>
+                    <select id="Course" name="Course" required>
+                        <option value="">Select your course</option>
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="M.Tech">M.Tech</option>
+                        <option value="MBA">MBA</option>
+                        <option value="BBA">BBA</option>
+                    </select><br><br>
+                 <label for="Branch">Branch:</label>
+                 <select id="dpt" name="Department" required>
+                    <option value="">Select your department</option>
+                    <option value="CSE">COMPUTER SCIENCE AND ENGINEERING</option>
+                    <option value="ECE">ELECTRONICS AND COMMUNICATION ENGINEERING</option>
+                    <option value="ME">MECHANICAL ENGINEERING</option>
+                    <option value="CE">CIVIL ENGINEERING</option>
+                </select><br><br>
+                <label for="Year">Year:</label>
+                <select id="Year" name="Year" required>
+                    <option value="">Select your year</option>
+                    <option value="1st Year">1st Year</option>
+                    <option value="2nd Year">2nd Year</option>
+                    <option value="3rd Year">3rd Year</option>
+                    <option value="4th Year">4th Year</option>
+                </select><br><br>   
+                <label for="Semester">Semester:</label>
+                <select id="Semester" name="Semester" required>
+                     <option value="">Select your semester</option>
+                     <option value="1st Semester">1st Semester</option>
+                     <option value="2nd Semester">2nd Semester</option>
+                     <option value="3rd Semester">3rd Semester</option>
+                     <option value="4th Semester">4th Semester</option>
+                     <option value="5th Semester">5th Semester</option>
+                    <option value="6th Semester">6th Semester</option>
+                    <option value="7th Semester">7th Semester</option>
+                    <option value="8th Semester">8th Semester</option>
+                </select><br><br>
+                <label for="RollNumber">Roll Number:</label>
+                <input type="text" id="RollNumber" name="RollNumber" required placeholder="Enter your roll number"><br><br>
+                <label for="StudentID">Student ID:</label>
+                <input type="text" id="StudentID" name="StudentID" required placeholder="Enter your student ID"><br><br >
+                </fieldset>
+                <fieldset>
+                    <legend><h2>OTHER INFORMATION</h2></legend>
+                    <label for="Hobbies">Hobbies:</label>
+                    <input type="text" id="Hobbies" name="Hobbies" required placeholder="Enter your hobbies"><br><br>
+                    <label for="Skills">Skills:</label>
+                    <input type="text" id="Skills" name="Skills" required placeholder="Enter your skills"><br><br>
+                    <label for="Achievements">Achievements:</label>
+                    <input type="text" id="Achievements" name="Achievements" required placeholder="Enter your achievements"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend><h2>PASSWORD</h2></legend>
+                    <label for="Password">Password:</label>
+                    <input type="password" id="Password" name="Password" required placeholder="Enter your password"><br><br>
+                    <label for="ConfirmPassword">Confirm Password:</label>
+                    <input type="password" id="ConfirmPassword" name="ConfirmPassword" required placeholder="Confirm your password"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend><h2>FEEDBACK</h2></legend>
+                    <label for="Feedback">Feedback:</label>
+                    <textarea id="Feedback" name="Feedback" rows="4" cols="50" required placeholder="Enter your feedback"></textarea><br><br>
+                </fieldset>
+
+                <input type="submit" value="Submit" style="background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                <input type="reset" value="Reset" style="background-color: red; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+
+
+            </form>
+        </body>
+    </head>
+</html>

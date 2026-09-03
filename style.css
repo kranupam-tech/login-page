@@ -1,0 +1,102 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Form container */
+form {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Fieldset styling */
+fieldset {
+  border: 2px solid #004080;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  text-align: left;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  color: #004080;
+}
+
+/* Labels and inputs */
+label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input, select, textarea {
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Radio buttons inline */
+input[type="radio"] {
+  width: auto;
+  margin-left: 10px;
+}
+
+/* Buttons */
+input[type="submit"], input[type="reset"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s ease;
+}
+
+input[type="submit"] {
+  background-color: #004080;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #0066cc;
+}
+
+input[type="reset"] {
+  background-color: #cc0000;
+  color: white;
+}
+
+input[type="reset"]:hover {
+  background-color: #ff3333;
+}
+
+/* Textarea */
+textarea {
+  resize: none;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  input, select, textarea {
+    width: 100%;
+  }
+}
